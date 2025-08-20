@@ -28,28 +28,14 @@ export default function Contact() {
                   <Mail size={20} />
                 </div>
                 <div>
-                  <h4 className="font-medium mb-1">Email</h4>
+                                    <h4 className="font-medium mb-1">Email</h4>
                   <a
-                    href="mailto:Essam@example.com"
+                    href="mailto:ali.ahmed.software.engineer@gmail.com"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
-                    essam@example.com
+                    ali.ahmed.software.engineer@gmail.com
                   </a>
                 </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <div className="p-3 bg-gray-800 rounded-lg text-purple-500">
-                  <Phone size={20} />
-                </div>
-                <div>
-                  <h4 className="font-medium mb-1">Phone</h4>
-                  <a
-                    href="tel:+1234567890"
-                    className="text-gray-400 hover:text-white transition-colors"
-                  >
-                    +1 (234) 567-890
-                  </a>
                 </div>
               </div>
 
@@ -59,7 +45,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-medium mb-1">Location</h4>
-                  <p className="text-gray-400">New York, NY, United States</p>
+                  <p className="text-gray-400">Cairo, Egypt</p>
                 </div>
               </div>
             </div>
@@ -68,7 +54,9 @@ export default function Contact() {
               <h3 className="text-xl font-semibold mb-4">Follow Me</h3>
               <div className="flex gap-4">
                 <a
-                  href="#"
+                  href="https://github.com/3ly-Al-husseiny"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="p-3 bg-gray-800 rounded-lg text-gray-400 hover:text-white hover:bg-gray-700 transition-all"
                 >
                   <svg
@@ -82,7 +70,9 @@ export default function Contact() {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/3lawy"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="p-3 bg-gray-800 rounded-lg text-gray-400 hover:text-white hover:bg-gray-700 transition-all"
                 >
                   <svg
@@ -95,10 +85,7 @@ export default function Contact() {
                     <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
                   </svg>
                 </a>
-                <a
-                  href="#"
-                  className="p-3 bg-gray-800 rounded-lg text-gray-400 hover:text-white hover:bg-gray-700 transition-all"
-                >
+              </div>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
@@ -144,7 +131,7 @@ export default function Contact() {
                     name="name"
                     required
                     className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all"
-                    placeholder="Essam Mohamed"
+                    placeholder="Ali El-husseiny"
                   />
                 </div>
                 <div>
@@ -160,7 +147,7 @@ export default function Contact() {
                     name="email"
                     required
                     className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all"
-                    placeholder="Essam@example.com"
+                    placeholder="ali.ahmed.software.engineer@gmail.com"
                   />
                 </div>
               </div>

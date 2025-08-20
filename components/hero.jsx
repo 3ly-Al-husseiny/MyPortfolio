@@ -18,9 +18,9 @@ export default function Hero() {
     if (!textElement) return;
 
     const roles = [
-      "Frontend Developer",
-      "Next.js Specialist",
-      "Tailwind CSS Expert",
+      "Full Stack Web Developer",
+      "Angular Specialist",
+      "Asp.Net Developer",
     ];
     let roleIndex = 0;
     let charIndex = 0;
@@ -57,12 +57,12 @@ export default function Hero() {
     >
       <div className="container px-4 md:px-6 z-10">
         <span className={`px-4 py-1 mb-4 rounded-full text-sm font-medium ${SECONDARY_BG} ${TEXT_SECONDARY}`}>
-          Welcome to my portfolio
+          Full Stack Web Developer (Angular | Asp.Net)
         </span>
 
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
           Hi, I'm <span className="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
-            Essam Mohamed
+            Ali El-husseiny
           </span>
         </h1>
 
@@ -71,8 +71,7 @@ export default function Hero() {
         </div>
 
         <p className={`max-w-2xl ${TEXT_TERTIARY} mb-10 mx-auto`}>
-          I create engaging, responsive, and user-friendly web experiences
-          with modern technologies and clean code.
+          I can talk both User and Server.
         </p>
 
         <div className="flex justify-center items-center flex-col sm:flex-row gap-4">
