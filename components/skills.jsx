@@ -1,7 +1,7 @@
 "use client"
 
 import { useRef, useEffect, useState } from "react"
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaGithub, FaFigma, FaNpm, FaWordpress } from "react-icons/fa"
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaGithub, FaFigma, FaNpm, FaWordpress, FaBootstrap, FaDatabase, FaServer, FaCode, FaShieldAlt, FaCloud } from "react-icons/fa"
 import {
   SiNextdotjs,
   SiTailwindcss,
@@ -13,9 +13,18 @@ import {
   SiFirebase,
   SiFramer,
   SiSass,
+  SiCsharp,
+  SiDotnet,
+  SiDocker,
+  SiJquery,
+  SiMicrosoftsqlserver,
+  SiAzuredevops,
+  SiVisualstudio,
 } from "react-icons/si"
 import { TbBrandReactNative } from "react-icons/tb"
-import { MdDesignServices } from "react-icons/md"
+import { MdDesignServices, MdArchitecture, MdSecurity } from "react-icons/md"
+import { BiNetworkChart, BiSolidAlgorithm } from "react-icons/bi"
+import { BsWindowStack, BsDiagram3Fill } from "react-icons/bs"
 
 export default function Skills() {
   const [isVisible, setIsVisible] = useState(false)
@@ -49,27 +58,35 @@ export default function Skills() {
     { name: "HTML5", icon: <FaHtml5 className="text-[#E34F26]" size={36} /> },
     { name: "CSS3", icon: <FaCss3Alt className="text-[#1572B6]" size={36} /> },
     { name: "JavaScript", icon: <FaJs className="text-[#F7DF1E]" size={36} /> },
-    { name: "React", icon: <FaReact className="text-[#61DAFB]" size={36} /> },
-    { name: "Next.js", icon: <SiNextdotjs size={36} /> },
-    { name: "Tailwind CSS", icon: <SiTailwindcss className="text-[#06B6D4]" size={36} /> },
-    { name: "WordPress", icon: <FaWordpress className="text-[#3178C6]" size={36} /> },
+    { name: "C#", icon: <SiCsharp className="text-[#9B4F96]" size={36} /> },
+    { name: "ASP.NET MVC", icon: <SiDotnet className="text-[#512BD4]" size={36} /> },
+    { name: "ASP.NET API", icon: <SiDotnet className="text-[#512BD4]" size={36} /> },
+    { name: "SQL Server", icon: <SiMicrosoftsqlserver className="text-[#CC2927]" size={36} /> },
     { name: "UI/UX Design", icon: <MdDesignServices className="text-purple-500" size={36} /> },
   ]
 
   const technologies = [
+    { name: "Bootstrap", icon: <FaBootstrap className="text-[#7952B3]" size={24} /> },
+    { name: "jQuery", icon: <SiJquery className="text-[#0769AD]" size={24} /> },
+    { name: "OOP", icon: <BsDiagram3Fill size={24} /> },
+    { name: "EF Core", icon: <FaDatabase className="text-[#512BD4]" size={24} /> },
+    { name: "LINQ", icon: <FaCode className="text-[#512BD4]" size={24} /> },
+    { name: "SOLID", icon: <MdArchitecture size={24} /> },
+    { name: "Clean Code", icon: <FaCode size={24} /> },
+    { name: "Clean Architecture", icon: <MdArchitecture className="text-[#FF9900]" size={24} /> },
+    { name: "Data Structures", icon: <BiSolidAlgorithm size={24} /> },
+    { name: "Algorithms", icon: <BiSolidAlgorithm className="text-[#00B4D8]" size={24} /> },
     { name: "Git", icon: <FaGitAlt className="text-[#F05032]" size={24} /> },
     { name: "GitHub", icon: <FaGithub size={24} /> },
     { name: "Figma", icon: <FaFigma className="text-[#F24E1E]" size={24} /> },
-    // { name: "React Native", icon: <TbBrandReactNative className="text-[#61DAFB]" size={24} /> },
-    // { name: "GraphQL", icon: <SiGraphql className="text-[#E10098]" size={24} /> },
-    { name: "Redux", icon: <SiRedux className="text-[#764ABC]" size={24} /> },
-    // { name: "Jest", icon: <SiJest className="text-[#C21325]" size={24} /> },
-    { name: "Webpack", icon: <SiWebpack className="text-[#8DD6F9]" size={24} /> },
-    { name: "npm", icon: <FaNpm className="text-[#CB3837]" size={24} /> },
     { name: "Vercel", icon: <SiVercel size={24} /> },
-    // { name: "Firebase", icon: <SiFirebase className="text-[#FFCA28]" size={24} /> },
-    // { name: "Framer", icon: <SiFramer size={24} /> },
-    { name: "SASS/SCSS", icon: <SiSass className="text-[#CC6699]" size={24} /> },
+    { name: "BOM/DOM", icon: <BsWindowStack size={24} /> },
+    { name: "CI/CD", icon: <SiAzuredevops size={24} /> },
+    { name: "Docker", icon: <SiDocker className="text-[#2496ED]" size={24} /> },
+    { name: "Security", icon: <FaShieldAlt className="text-[#4CAF50]" size={24} /> },
+    { name: "Cloud Computing", icon: <FaCloud className="text-[#4285F4]" size={24} /> },
+    { name: "Networking", icon: <BiNetworkChart size={24} /> },
+    { name: "Bootstrap Studio", icon: <FaBootstrap className="text-[#7952B3]" size={24} /> },
   ]
 
   return (
@@ -81,8 +98,8 @@ export default function Skills() {
             <span className="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">Skills</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            I've worked with a variety of technologies in the web development world. Here's an overview of my technical
-            skills and expertise.
+            I've worked with a variety of technologies in both frontend and backend development. 
+            Here's an overview of my technical skills and expertise as a Full Stack Developer.
           </p>
         </div>
 
@@ -111,7 +128,7 @@ export default function Skills() {
           {/* Other technologies */}
           <div className="mt-8">
             <h3 className="text-xl font-semibold mb-8 text-center">Technologies & Tools</h3>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
               {technologies.map((tech) => (
                 <div
                   key={tech.name}
